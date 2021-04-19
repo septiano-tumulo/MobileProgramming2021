@@ -3,11 +3,9 @@ import { StyleSheet, Text, View, TouchableOpacity} from 'react-native'
 
 const index = ({label}) => {
     return (
-        <View>
-            <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button}>
         <Text style={styles.labelButton}>{label}</Text>
         </TouchableOpacity>
-        </View>
     )
 }
 
@@ -26,4 +24,4 @@ const styles = StyleSheet.create({
         color: 'white',
         fontWeight: '500',
     }
-})
+});

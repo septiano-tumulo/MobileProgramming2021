@@ -1,9 +1,10 @@
 import React from 'react';
-import Register from './Components/pages/Register';
-import UserList from './Components/pages/UserList';
+import Register from './components/pages/Register';
+import Login from './components/pages/Login';
+import UserList from './components/pages/UserList';
 
 const App = () =>{
-    return <UserList />;
+    return <Login />;
 };
 
 export default App;

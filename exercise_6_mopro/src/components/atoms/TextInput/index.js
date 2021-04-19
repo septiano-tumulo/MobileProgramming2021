@@ -16,7 +16,6 @@ export default TextInput;
 const styles = StyleSheet.create({
     labelInput: {
         fontSize: 14,
-        marginTop: 20,
     },
     input: {
         borderWidth: 1,
@@ -26,4 +25,4 @@ const styles = StyleSheet.create({
         paddingVertical: 15,
         marginTop: 5,
     },
-})
+});
