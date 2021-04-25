@@ -21,7 +21,7 @@ const App = () =>{
     <Gap height={48} />
     <Button label="Register" />
     </View>
-    )
+    );
 };
 
 const styles = StyleSheet.create({

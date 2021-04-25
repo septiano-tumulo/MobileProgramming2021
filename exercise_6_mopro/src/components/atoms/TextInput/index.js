@@ -1,5 +1,5 @@
-import React from 'react'
-import { StyleSheet, Text, View, TextInput as Input } from 'react-native'
+import React from 'react';
+import { StyleSheet, Text, View, TextInput as Input } from 'react-native';
 
 const TextInput = ({label, placeholder}) => {
     return (
@@ -8,8 +8,8 @@ const TextInput = ({label, placeholder}) => {
     <Input style={styles.input}placeholder={placeholder}/>
     <Text style={styles.labelInput}>Username</Text>
         </View>
-    )
-}
+    );
+};
 
 export default TextInput;
 

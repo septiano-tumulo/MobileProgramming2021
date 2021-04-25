@@ -1,13 +1,13 @@
-import React from 'react'
-import { StyleSheet, Text, View, TouchableOpacity} from 'react-native'
+import React from 'react';
+import { StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 
 const index = ({label}) => {
     return (
         <TouchableOpacity style={styles.button}>
         <Text style={styles.labelButton}>{label}</Text>
         </TouchableOpacity>
-    )
-}
+    );
+};
 
 export default index
 
